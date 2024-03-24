@@ -16,26 +16,60 @@
   padding: 5px;
   text-align: center;
 } 
+			h1{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;}
+		h2{
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;}
+		h3{ 
+			font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+		p{ font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+		li{ font-family: "Sometype Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+		h5{font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+
 </style>
 <meta charset="utf-8">
 <title>Features of Space</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Noto+Sans+Mono:wght@200&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+	
 </head>
 	
 <body style="background-color:black">
 		<h1 id="myHeader" style="color:wheat;">Features of space</h1>
 	<div class="links">
 		<p> <a style="color:antiquewhite;" href="https://www.nasa.gov/">NASA</a></p>
-	<h3 style="color:wheat;"><a style="color:wheat;:" href="index.html">Index</a> <a style="color:wheat;" href="nebulae.html"> Nebulae</a> <a style="color:wheat;" href="galaxies.html">Galaxies</a> <a style="color:wheat;" href="constellations.html">Constellations</a> <a style="color:wheat;" href="planets.html">Planets</a>  <a style="color:wheat;" href="stars.html">Stars</a></h3>
+	<h3 style="color:wheat;"><a style="color:wheat;:" href="index.html">Index</a> <a style="color:wheat;" href="nebulae.html"> Nebulae</a> <a style="color:wheat;" href="galaxies.html">Galaxies</a> <a style="color:wheat;" href="planets.html">Planets</a>  <a style="color:wheat;" href="stars.html">Stars</a></h3>
 	</div>
 
 	<h4 style="color:wheat;"></h4>
 	<hr>
-		<h2><a style="color:wheat;" href="nebulae.html">Nebulae</a></h2>
+		<h2 id="nebulae"><a style="color:wheat;" href="nebulae.html">Nebulae</a></h2>
 	<p style="color:wheat;">Nebulae are commonly known as the <em>nurseries of new stars</em>. The main classifications of a nebulae are emmision, supernova remnant, planetary, reflection, and dark. </p>
+	<hr>
 	<h2 style="color:wheat;">Galaxies</h2>
 	<p style="color:wheat;"> Galaxies are star systems with black holes at the center. The three main classifications of galaxies are spiral galaxies, elliptical galaxies, and irregular galaxies. </p>
-	<h2 style="color:wheat">Constellations</h2>
-	<p style="color:wheat;"></p>
+	<hr>
 	<h2 style="color:wheat">Planets</h2>
 	<p style="color:wheat">There are 8 planets in our solar system, along with a few dwarf planets in the Kuiper Belt, such as Pluto. </p>
 	<h3 style="color:wheat">Rocky planets</h3>
@@ -53,7 +87,11 @@
 	<li>Neptune</li>
 	</ol>
 	<p style="color:wheat;"></p>
+	<hr>
 	<h2 style="color:wheat">Stars</h2>
+	
+	<hr><iframe width="560" height="315" src="https://www.youtube.com/embed/vV0PzmXUu70?si=Z-OzkW-ny2FALN0m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	
 	<p style="color:wheat;"></p>
 	<h2 style="color:wheat;">Name input</h2>
 
@@ -63,7 +101,10 @@
   <label for="lname">Last name:</label><br>
   <input type="text" id="lname" name="lname" value="Doe"><br><br>
   <input type="submit" value="Submit">
+	<input type="reset" value="Reset">
 </form>
+
 </body>
+	
 
 </html>
